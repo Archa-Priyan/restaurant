@@ -1,0 +1,313 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width:100%;
+    height:100vh;
+    position:relative;
+    background-image: url("https://www.hotelakshaya.com/assets/images/topbg.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-color:#fff;
+}
+.navdiv{
+    background-color: black;
+    
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px; 
+    align-items: center;/* to display items to center */
+    width:82%;
+}
+.links{
+   text-decoration: none;/* to remove the link underline */
+   font-weight: bold;
+   color:cadetblue;
+   font-size: 18px;
+}
+.logo{
+   width:120px;
+   size: 50px;
+   
+}
+.linkitems{
+    display: inline-block; /* to display vertical list in horizontal */
+    margin: 10px 20px;
+}
+.links:hover{
+    color: darkred;
+    background-color: burlywood;
+    border-radius: 2px;
+}
+.order{
+    background-color:brown;
+    color:white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius:5px;
+    font-family: 'Oswald', sans-serif;
+}
+.heading{
+    margin: 10% 10% 0px 10%;
+    text-align: center;
+    color:white;
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#bg_text{
+    color:cadetblue;
+    font-size:75px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.cloud{
+    margin:0px;
+    margin-top: 150px;
+    width: 100%;
+}
+.scooter{
+    margin-top: -700px;
+    height: 300px;
+    
+}
+
+.home_container{
+    margin:8% 8% 0px 8%;
+    text-align: center;
+    
+}
+#home{
+    
+    background-color:white;
+    width:100%;
+}
+#sp{
+    color: cornflowerblue;
+    font-size: 50px;
+}
+#heading1{
+    font-size: 70px;
+    margin-top: -50px;
+}
+p em{
+    font-size: 20px;
+}
+.logo_img{
+    padding: 7px;
+}
+.food_img {
+    display: flex;
+    grid-template-columns: 2 2fr;
+    justify-content: space-between;
+}
+
+.food{
+    margin: 200px 10px;
+}
+.best h2{
+    margin:10% 4% 0px 8%;
+    margin-top: 50px;
+    text-align:center;
+    position: relative;
+    font-style: italic;
+    margin-left: 30px;
+    font-size: 40px;
+    color: darkcyan;
+    
+}
+.food:hover img{
+    animation: shake 0.75s;
+}
+@keyframes shake{ /* for animation */
+    10%{ 
+        transform: rotateZ(5deg);
+    }
+    20%{
+        transform: rotateZ(-5deg);
+    }
+    30%{
+        transform:  rotateZ(5deg);
+    }
+    40%{
+        transform: rotateZ(5deg);
+    }
+}
+.pobe{
+     margin-top: 50px;
+     margin-right: 200px;
+}
+.rice{
+    margin-top: 50px;
+    margin-right: 200px;
+}
+.abt_container{
+    margin: 1% 2% 5% 5%;
+}
+.abt_txt{
+    
+    margin:2% 4% 0px 8%;
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+    color: darkcyan;
+}
+.paa{
+    text-align: center;
+    font-size: 25px;
+}
+.space{
+   margin-left: 650px;
+   margin-top: 30px;
+}
+.online{  
+    align-items: center;
+    text-align: right;
+    margin-left: 120px;
+}
+#menu{
+    background-color: rgb(248, 221, 185);
+}
+.menu_div{
+    margin: 2% 2% 0px 2%;
+    margin-left: 60px;
+}
+.menu1{
+    width:30%;
+    margin-left: 10%;
+    display:inline-flex;
+}
+.abt_txt:hover{
+    color:black;
+}
+
+.tag{
+   
+    margin: 90px 0px 0px 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;  
+}
+.div_tag{
+   
+    background-color: rgb(26, 67, 68);
+    height: 30px;
+    opacity: 0.8;
+    display: inline-block;
+    border-radius: 4px;
+    width:70px;
+}
+.gallery_img{
+    margin:2% 4% 0px 8%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: black;
+
+}
+.gal_img{
+    margin:3% 3% 5% 8%;
+}
+.g_div{
+    background-color: rgb(22, 21, 21);
+    width: 450px;
+    border-radius: 5px;
+    height:1186px;
+}
+.text{
+    font-weight: bold;
+    color: darkslategray;
+    font-style: italic;
+    font-size: 20px;
+
+}
+
+.icon_1{
+    background-color: rgb(28, 26, 26);
+    width: 1520px;
+    height: 500px;
+    border: 5px inset grey;
+    color: #fff;
+    display: inline-flex;
+    padding: 8%;
+    
+}
+.li:hover {
+    color:chocolate;
+     animation:  move 0.75s;
+   
+}
+@keyframes move{ /* for animation */
+    10%{ 
+        transform: rotateZ(10deg);
+    }
+    20%{
+        transform: rotateZ(-10deg);
+    }
+    30%{
+        transform:  rotateZ(10deg);
+    }
+    40%{
+        transform: rotateZ(10deg);
+    }
+}
+
+.ph{
+    padding: 1px;
+    margin:1%;
+    margin-top: -30px;
+}
+.li{
+    color: blanchedalmond;
+}
+.so a{
+    color: #fff;
+    margin-left: 50px;
+}
+.fa{
+    padding: 4%;
+    display: inline-flex;
+}
+.in{
+    padding: 4%;
+    display: inline-flex;
+    margin-top: 50px;
+}
+.yu{ 
+     padding: 4%;
+     display: inline-flex;
+     margin-left: 90px;
+}
+.fa:hover{
+    font-size: large;
+    color: chocolate;
+}
+.in:hover{
+    font-size: large;
+    color: chocolate;
+}
+.yu:hover{
+    font-size: large;
+    color: chocolate;
+}
+.download{
+    background-color: black;
+    color: #fff;
+    padding: 10px 190px;
+    margin:3%;
+    text-decoration: none;
+    border-radius:5px;
+    font-weight:bold;
+    align-items: center;
+    margin-left: 400px;
+    font-size: 50px;
+    
+}
+
